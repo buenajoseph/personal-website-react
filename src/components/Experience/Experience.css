@@ -1,0 +1,7 @@
+.experience * {
+    z-index: 1000;
+}
+
+.experience {
+    background-color: rgb(255, 228, 153);
+}
