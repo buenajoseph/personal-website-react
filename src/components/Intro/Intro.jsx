@@ -4,8 +4,8 @@ import "./Intro.css";
 export default function Intro() {
     return (
         <div className="intro" id="intro">
+            <div className="background background-right"></div>
             <div className="intro-left">
-                <div className="background"></div>
                 <div className="wrapper">
                     <h1>Joseph Tyler Buenaventura</h1>
                     <h3>Software Engineer</h3>
