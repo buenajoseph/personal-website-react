@@ -9,12 +9,13 @@ export const featWorks = [
         link: "https://github.com/buenajoseph"
     },
     {
-        id: 1,
-        name: "Inventory Web App",
-        img:"img/kim.png",
-        desc: "Developer",
+        id: 0,
+        name: "Doneboard",
+        img:"img/db.png",
+        desc: "Web App Developer",
         desc2: "Jul. 2021 - Oct. 2021",
-        tech: "Bubble.io"
+        tech: "Bubble.io",
+        link: "https://www.doneboard.com/"
     },
     {
         id: 2,
