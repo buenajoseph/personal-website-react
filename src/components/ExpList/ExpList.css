@@ -1,0 +1,22 @@
+.con > .items > .item {
+    z-index: 0;
+    margin: 5px 5px;
+}
+.con > .items > .item > a img {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    z-index: -1;
+}
+
+.con > .items > .item > .overlay {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: rgba(36, 37, 92, .5);
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1
+    
+}

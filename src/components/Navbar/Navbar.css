@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 60px;
-    background-color: rgb(255, 240, 200);
+    background-color: rgb(245, 245, 197);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -32,7 +32,7 @@
 
 .nav-left a:hover {
     font-size: 35px;
-    color: orange;
+    color: rgb(255, 190, 68);
 }
 
 .nav-right {
@@ -55,7 +55,7 @@
 
 .nav-right > .icon.active:hover {
     font-size: 35px;
-    color: orange;
+    color: rgb(255, 190, 68);
 }
 
 .nav-right > .icon.active {
@@ -80,14 +80,22 @@
 }
 
 .nav-right > .contact-info > .contact-text, .nav-right > .contact-info a{
+    color: rgb(36, 37, 92);
     position: relative;
     padding: 3px;
     margin-right: 20px;
     text-decoration: none;
 }
 
+.nav-right > .contact-info > .contact-icon {
+    color: rgb(36, 37, 92);
+    position: relative;
+    vertical-align: -4px;
+    margin-right: 4px;
+}
+
 .nav-right > .contact-info a:hover {
-    color: orange
+    color: rgb(255, 190, 68);
 }
 
 

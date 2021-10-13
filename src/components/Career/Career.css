@@ -1,13 +1,6 @@
 .career {
-    background-color: rgb(255, 234, 176);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: rgb(245, 245, 197);
     text-align: center;
-    padding-top: 10%;
-}
-
-.career h1, .career ul * {
     overflow: hidden;
 }
 
@@ -17,104 +10,79 @@
     color: rgb(36, 37, 92);
 }
 
-.career ul {
-    color: rgb(36, 37, 92);
-    margin: 13px;
-    padding: 0;
-    list-style: none;
+.career >.container {
     display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
 }
 
-.career-items {
-    width: 80%;
+.career >.container * {
     display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.career >.container * h2 {
+    color:rgb(36, 37, 92);
+}
+
+.career > .container * > ul {
+    align-items: center;
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.career > .container * > ul *{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.career > .container * > .career-items {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
-.career-items > .item {
-    width: 25vmin;
-    height: 25vmin;
-    border-radius: 20px;
-    border: 1px solid orange;
-    overflow: hidden;
-    margin: 10px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(36, 37, 92);
-    position: relative;
-    cursor: pointer;
-}
-
-.career-items >.item h3 {
-    top: 15px;
+.career > .container * > .career-items button {
     display: none;
-    position: absolute;
-    font-size: calc(10px + 1vmin);
-    z-index: 1;
 }
 
-.career-items >.item h3.active {
-    display: flex;
+.career > .container * > .career-items button.active {
+    display: block;
 }
 
-.career-items >.item h4 {
-    display: none;
-    position: absolute;
-    font-size: calc(5px + 1vmin);
-    z-index: 1;
-}
-
-.item h4, .item h5 {
-    font-size: calc(10px + .5vw);
-}
-
-.item p {
-    font-size: calc(10px + .5vw);
-}
-
-h4 {
-    bottom: 10px;
-}
-
-h5 {
-    bottom: 50%;
-}
-
-.item p {
-    bottom: 25%;
-}
-
-.career-items >.item h4.active {
-    display: flex;
-}
-
-.career-items >.item h3:hover {
-    z-index: 2;
-}
-
-h4, h5, .item p {
-    position: absolute;
-}
-
-.item a {
-    transition: all 0.5s ease;
-    z-index: 3;
-}
-
-.item a img{
-    width: 25vmin;
-    height: 25vmin;
-    object-fit: cover;
-    opacity: 1;
-}
-
-
-.item a:hover, .item a img:hover{
+.career > .container * > .career-items > .item {
     z-index: 0;
-    opacity: 0.3;
-    background-color: rgb(36, 37, 92);
+    margin: 5px 5px;
+}
+
+.career > .container * > .career-items > .item > a img {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    z-index: -1;
+}
+
+.career > .container * > .career-items > .item > .overlay {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: rgba(36, 37, 92, .5);
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1
+    
+}
+
+.career > .container > .left {
+    flex: 0.5;
+}
+
+.career >  .container > .right {
+    flex: 0.5
 }

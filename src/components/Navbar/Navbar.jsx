@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import "./Navbar.css";
 import {Person, Close, Phone, Email, GitHub} from '@material-ui/icons';
 
