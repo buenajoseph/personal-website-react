@@ -1,28 +1,23 @@
-import React, { useState}  from 'react';
-import Navbar from './components/Navbar/Navbar';
-import Intro from './components/Intro/Intro';
-import Career from './components/Career/Career';
-import Contact from './components/Contact/Contact';
-import "./App.css";
+import React, { useEffect } from "react";
+import Routes from "./router/Routes";
+import ScrollToTop from "./components/ScrollToTop";
+import AOS from "aos";
+import AnimatedCursor from "react-animated-cursor";
+import "aos/dist/aos.css";
 
-
-function App() {
-  const [navContactOpen, setNavContactOpen] = useState(false);
-
-
+const App = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="app">
-      <Navbar navContactOpen={navContactOpen} setNavContactOpen={setNavContactOpen}></Navbar>
-      <div className="main-body">
-        <Intro className="first"></Intro>
-        <Career className="after"></Career>
-        <Contact className="last"></Contact>
-        <div className="foot">
-          <p>&copy; All rights reserved. Joseph Buenaventura 2021</p>
-        </div>
-      </div>
-    </div>
+    <>
+      <AnimatedCursor
+        color="52, 73, 94"
+      />
+      <ScrollToTop />
+      <Routes />
+    </>
   );
-}
+};
 
 export default App;
