@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Modal from "react-modal";
 import Tilt from "react-parallax-tilt";
 
@@ -46,7 +46,7 @@ const Service = () => {
               <div className="hover">
                 <img className="svg custom" src="img/svg/4.svg" alt="" />
                 <div className="service_title">
-                  <h3>Test Software &amp; QA</h3>
+                  <h3>Full-Stack Engineering</h3>
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Service = () => {
               <div className="hover">
                 <img className="svg custom" src="img/svg/3.svg" alt="" />
                 <div className="service_title">
-                  <h3>Full-Stack Engineering</h3>
+                  <h3>Test Software &amp; QA</h3>
                 </div>
               </div>
             </div>

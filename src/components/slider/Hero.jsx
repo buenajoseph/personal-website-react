@@ -3,7 +3,7 @@ import Social from "../Social";
 
 const heroContent = {
   name: "Joseph Tyler Buenaventura",
-  description: `Upcoming CS Graduate and Aspiring Software Engineer`,
+  description: `Software Engineer`,
 };
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
           <img
             src={`img/Pers/generic.png`}
             srcSet={`img/Pers/me.png`}
-            alt="hero image"
+            alt="hero"
           />
         </div>
         <div className="extra">

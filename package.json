@@ -10,6 +10,7 @@
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-animated-cursor": "^2.2.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.6.3",
     "react-icons": "4.2.0",

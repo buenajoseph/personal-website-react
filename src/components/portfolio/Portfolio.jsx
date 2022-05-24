@@ -29,6 +29,26 @@ const Portfolio = () => {
     ],
   };
 
+  // const modalData = [
+  //   {
+  //     title: "Professional Experience",
+  //     data: [
+  //       {
+  //         jobTitle: "Doneboard - Computer Builds Technician",
+  //         jobPoints: [
+  //           "•	Facilitated over 50 internal process changes using documentation and process improvement proposals.",
+  //           "•	Maintained data and inventory of over 2000 devices through a custom inventory management web application.",
+  //           "•	Organized weekly check-ins, meetings, and support coverage to ensure a team of 4’s success and happiness"
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   {
+
+  //   },
+
+  // ]
+
   return (
     <div className="portfolio_inner my_carousel gallery_zoom">
       <ul data-aos="fade-right" data-aos-duration="1200">

@@ -4,8 +4,6 @@ import Hero from "../../components/slider/Hero";
 import About from "../../components/about/About";
 import Service from "../../components/service/Service";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Address from "../../components/Address";
 import Map from "../../components/Map";

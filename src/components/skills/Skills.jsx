@@ -10,7 +10,7 @@ const skillsContent = [
     skillPercent: "80",
   },
   {
-    name: "HTML/CSS",
+    name: "HTML/CSS/JS/TS",
     skillPercent: "85",
   },
   {
@@ -18,12 +18,12 @@ const skillsContent = [
     skillPercent: "80",
   },
   {
-    name: "SQL",
+    name: "C++",
     skillPercent: "75",
   },
   {
-    name: "C & C++",
-    skillPercent: "75",
+    name: "C",
+    skillPercent: "50",
   },
 ];
 
